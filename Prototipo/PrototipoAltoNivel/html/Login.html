@@ -1,0 +1,52 @@
+<!-- 
+    HTML     CSS                FORÇA
+    id       #"nome do id"      ***
+    classe   ."nome da classe"  **
+    tag      tag                *
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Gerencimento de Plantação</title>
+
+        <link rel="stylesheet" href="/styles/page-login.css">
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+    </head>
+
+    <body id="page-login">
+        
+        <div class="container">
+            <div class="title-login">
+                <h1>Bem Vindo ao Gerenciador de Plantação</h1>
+            </div>
+            <form action="/enter-sistem" id="login" method="POST">
+                <div class="input-block">
+                    <label for="mail">Email</label>
+                    <input name="mail" id="email" type="text" required>
+                </div>
+                <div class="input-block">
+                    <label for="pass">Senha:</label>
+                    <input name="pass" id="pass" type="password" required>
+                </div>
+            </form>
+                
+            <footer>
+                <div class="button-enter">
+                    <button type="submit" form="login">Entrar</button>
+                </div>
+                
+                <div class="link-extra">
+                    <a href="Esqueceu_Senha.html"> <h4>Esqueceu a senha </h4></a>
+                    <p> | </p>
+                    <a href="Pagina_Cadastro.html"> <h4> Cadastrar no site</h4></a>
+                </div>
+            </footer> 
+        </div>      
+    </body>
+
+</html>

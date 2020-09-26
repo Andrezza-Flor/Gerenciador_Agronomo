@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+</head>
+<body id=page-register>
+    
+    <div class="container">
+
+        <form action="" id="create-manager" method="POST">
+            <fieldset>
+                <legend>Seus Dados</legend>
+                <div class="input-block">
+                    <label for="name">Nome Completo: </label>
+                    <input name="name" type="text" id="name" required>
+                </div>
+                <div class="input-block">
+                    <label for="cpf">CPF: </label>
+                    <input name="cpf "type="number" id="cpf" required>
+                </div>
+                <div class="input-block">
+                    <label for="fone"> Telefone: </label>
+                    <input name="fone" type="number" id="fone" required>
+                </div>
+                <div class="input-block">
+                    <label for="gender">Gênero: </label>
+                    <select name="gender" id="gender" required>
+                        <option value="">Selecione uma opição</option>
+                        <option value="0">Feminino</option>
+                        <option value="1">Masculino</option>
+                    </select>
+                </div>
+                <div class="input-block">
+                    <label for="dtBirth">Data de Nascimneto</label>
+                    <input name="dtBirth" type="data" id="dtBirth" required>
+                </div>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Dados do Sistema</legend>
+                <div class="inputblock">
+                    <label for="function">Função:</label>
+                    <input name="funcion" type="funcion" id="function" required>
+                </div>
+                <div class="input-block">
+                    <label for="mail">E-mail:</label>
+                    <input name="mail" type="email" id="mail" required>
+                </div>
+                <div class="input-block">
+                    <label for="passI">Senha:</label>
+                    <input name="passI" type="password" name="passI" required>
+                </div>
+                <div class="input-block">
+                    <label for="passII">Senha:</label>
+                    <input name="passII" type="password" name="passII" required>
+                </div>
+                
+            </fieldset>
+        </form>
+    
+        <footer>
+            <button type="reset">Cancelar</button>
+            <button type="submit" form="create-manager"> Cadastrar</button>
+        </footer>
+        
+    </div>
+    
+</body>
+</html>
